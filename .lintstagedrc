@@ -1,0 +1,5 @@
+{
+  "**/*.{js,jsx,ts,tsx}": "npm run eslint",
+  "**/*.{css,less,scss}": "npm run stylelint",
+  "**/*.{js,jsx,tsx,ts,less,css,md,json}": "prettier --write"
+}
